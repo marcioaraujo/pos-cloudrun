@@ -67,3 +67,11 @@ https://go-expert-desafio-cloudrun-pxwwhvcvfa-uc.a.run.app/temperatura/{cep}
 
 Exemplo:\
 https://go-expert-desafio-cloudrun-pxwwhvcvfa-uc.a.run.app/temperatura/95770000
+
+mkdir pos-cloudrun
+cd pos-cloudrun  
+git init  
+git add .  
+git commit -m "First commit"
+git remote add origin https://github.com/marcioaraujo/pos-cloudrun.git
+git push -u origin master
